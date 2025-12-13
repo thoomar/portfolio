@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            width: 1200px;
+            height: 630px;
+            background: linear-gradient(135deg, #020617 0%, #0F172A 100%);
+            font-family: 'Inter', sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 60px;
+        }
+        .container {
+            display: flex;
+            align-items: center;
+            gap: 60px;
+        }
+        .photo {
+            width: 280px;
+            height: 280px;
+            border-radius: 50%;
+            border: 6px solid rgba(59, 130, 246, 0.5);
+            object-fit: cover;
+        }
+        .text {
+            color: white;
+        }
+        .name {
+            font-size: 64px;
+            font-weight: 700;
+            background: linear-gradient(135deg, #3B82F6 0%, #10B981 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 16px;
+        }
+        .title {
+            font-size: 36px;
+            color: #94a3b8;
+            margin-bottom: 24px;
+        }
+        .skills {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+        .skill {
+            background: rgba(59, 130, 246, 0.2);
+            color: #60a5fa;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="profile.jpg" class="photo" alt="Omar Thompson">
+        <div class="text">
+            <div class="name">Omar Thompson</div>
+            <div class="title">Full Stack Developer</div>
+            <div class="skills">
+                <span class="skill">JavaScript</span>
+                <span class="skill">Python</span>
+                <span class="skill">React</span>
+                <span class="skill">AWS</span>
+                <span class="skill">Node.js</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
